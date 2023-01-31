@@ -1,0 +1,27 @@
+@url = http://localhost:8080/members
+
+GET {{url}}
+
+###
+
+POST {{url}}
+Content-Type: application/json
+
+{
+    "name": "Islam",
+    "lastname": "Ishmuratov",
+    "age": 15
+}
+
+###
+
+DELETE {{url}}/3
+
+###
+
+PUT {{url}}/4/team
+Content-Type: application/json
+
+{
+    "team_id": 1
+}

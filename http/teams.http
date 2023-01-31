@@ -1,0 +1,16 @@
+@url = http://localhost:8080/teams
+
+GET {{url}}
+
+###
+
+POST {{url}}
+Content-Type: application/json
+
+{
+    "name": "Mobilograf"
+}
+
+###
+
+DELETE {{url}}/4
